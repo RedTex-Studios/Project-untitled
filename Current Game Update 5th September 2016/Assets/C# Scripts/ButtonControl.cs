@@ -6,5 +6,6 @@ public class ButtonControl : MonoBehaviour {
 	public void Play(){
 		Time.timeScale = 1f;
 		Application.LoadLevel (firstLevelIndex);
+   
 	}
 }
